@@ -97,7 +97,32 @@
             padding: 1.5rem;
             border-radius: 10px;
             margin-top: 2rem;
-            text-align: center;
+        }
+
+        .contact-info {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            border-left: 4px solid #3498db;
+        }
+
+        .support-types {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            border-left: 4px solid #27ae60;
+        }
+
+        .support-types ul {
+            margin-left: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .support-types li {
+            margin: 0.5rem 0;
+            color: #444;
         }
 
         @media (max-width: 768px) {
@@ -117,7 +142,7 @@
 </head>
 <body>
     <div class="container">
-        <a href="index.html" class="back-button">← Back to Home</a>
+        <a href="/" class="back-button">← Back to Home</a>
         <div class="content">
             <h1>M Legends Support</h1>
 
@@ -144,8 +169,26 @@
 
             <div class="contact-section">
                 <h2>Contact Support</h2>
-                <p>If you have questions, bug reports, or need assistance, feel free to contact us:</p>
-                <p>Email: <a href="mailto:elvin.m@hotmail.com">elvin.m@hotmail.com</a></p>
+                <p>If you have questions, bug reports, feature enhancement requests, or need assistance, feel free to contact us:</p>
+                
+                <div class="contact-info">
+                    <h3>Developer Information</h3>
+                    <p><strong>Developer:</strong> Elvin Mammadov</p>
+                    <p><strong>Legal Address:</strong> Adolph-Schonfelder Strasse 65</p>
+                    <p><strong>Email:</strong> <a href="mailto:elvin.m@hotmail.com">elvin.m@hotmail.com</a></p>
+                </div>
+
+                <div class="support-types">
+                    <h3>How We Can Help</h3>
+                    <ul>
+                        <li><strong>App Issues:</strong> Technical problems, bugs, or crashes</li>
+                        <li><strong>General Feedback:</strong> Your thoughts and suggestions about M Legends</li>
+                        <li><strong>Feature Requests:</strong> New features you'd like to see in future updates</li>
+                        <li><strong>Privacy Concerns:</strong> Questions about data collection and usage</li>
+                    </ul>
+                </div>
+
+                <p><strong>Response Time:</strong> We typically respond within 24-48 hours during business days.</p>
                 <p>Thank you for using M Legends!</p>
             </div>
         </div>

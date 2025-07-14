@@ -102,7 +102,7 @@
 </head>
 <body>
     <div class="container">
-        <a href="index.html" class="back-button">← Back to Home</a>
+        <a href="/" class="back-button">← Back to Home</a>
         <div class="content">
             <h1>Privacy Policy</h1>
             <p class="date"><strong>Effective date:</strong> 2025-05-26</p>

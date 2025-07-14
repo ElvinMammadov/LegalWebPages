@@ -115,13 +115,13 @@
         </header>
 
         <div class="cards-container">
-            <a href="privacy-policy.html" class="card">
+            <a href="privacy-policy" class="card">
                 <div class="card-icon">🔒</div>
                 <h2>Privacy Policy</h2>
                 <p>Learn about how we protect your data and privacy while using M Legends</p>
             </a>
 
-            <a href="support.html" class="card">
+            <a href="support" class="card">
                 <div class="card-icon">💬</div>
                 <h2>Support</h2>
                 <p>Get help with common questions and contact our support team</p>
